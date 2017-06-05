@@ -1,0 +1,2 @@
+# wsrepo
+ws kodi addons
