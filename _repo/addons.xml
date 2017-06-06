@@ -75,8 +75,8 @@ It broadcasts channels through the internet 24/7. The service is completely free
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="WS Repo">
-            <info compressed="false">https://github.com/welwel2/wsrepo/tree/master/_repo/?raw=true_repo/addons.xml</info>
-            <checksum>https://github.com/welwel2/wsrepo/tree/master/_repo/?raw=true_repo/addons.xml.md5</checksum>
+            <info compressed="false">https://github.com/welwel2/wsrepo/tree/master/_repo/addons.xml/?raw=true_repo</info>
+            <checksum>https://github.com/welwel2/wsrepo/tree/master/_repo/addons.xml.md5/?raw=true_repo</checksum>
             <datadir zip="true">https://github.com/welwel2/wsrepo/tree/master/_repo/?raw=true_repo/</datadir>
             <hashes>false</hashes>
         </extension>
