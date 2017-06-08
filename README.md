@@ -1,2 +1,2 @@
 # wsrepo
-ws kodi addons
+ws kodi addons this is a great repository 
