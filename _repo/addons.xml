@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.wslivetv" name="wslivetv" provider-name="WZS" version="3.1.9">
+<addons><addon id="plugin.video.wslivetv" name="wslivetv" provider-name="WZS" version="3.1.10">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.googleapi" version="1.4.2" />
@@ -21,22 +21,6 @@ Enjoy the live channels, and provide your feedback for continuous improvement
         </assets>
         <news>Create categories, and context menu</news>
     </extension>
-</addon><addon id="plugin.video.wsteledunet" name="WSTeledunet.com" provider-name="WSZ" version="3.2.0">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.beautifulsoup" version="3.0.8" />
-        <import addon="script.module.xbmcswift2" version="1.1.1" />
-    </requires>
-    <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Teledunet.com</summary>
-        <description>Télé du Net is a free online broadcasting service based in Tunisia that is dedicated to online viewers that live outside the Arab world.
-
-It broadcasts channels through the internet 24/7. The service is completely free to use and has a great compilation of channels to choose from.</description>
-        <platform>all</platform>
-    </extension>
 </addon><addon id="plugin.video.wslivestream" name="wsLivestream" provider-name="WZS" version="2017.5.24">
   <requires>
    <import addon="xbmc.python" version="2.19.0" />      
@@ -55,6 +39,22 @@ It broadcasts channels through the internet 24/7. The service is completely free
     <website>https://livestream.com/</website>
     <source>https://github.com/eracknaphobia/plugin.video.livestream</source>
   </extension>
+</addon><addon id="plugin.video.wsteledunet" name="WSTeledunet.com" provider-name="WSZ" version="3.2.0">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.beautifulsoup" version="3.0.8" />
+        <import addon="script.module.xbmcswift2" version="1.1.1" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Teledunet.com</summary>
+        <description>Télé du Net is a free online broadcasting service based in Tunisia that is dedicated to online viewers that live outside the Arab world.
+
+It broadcasts channels through the internet 24/7. The service is completely free to use and has a great compilation of channels to choose from.</description>
+        <platform>all</platform>
+    </extension>
 </addon><addon id="repository.wsrepo" name="WS Repo" provider-name="WZS" version="1.0.0">
     <requires>
         <import addon="xbmc.addon" version="12.0.0" />
