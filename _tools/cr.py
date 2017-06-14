@@ -23,3 +23,7 @@ if os.path.exists(output):
 os.chdir(os.path.join(base_path, toolsdir))
 
 os.system(r'py -3 create_repository.py --datadir=%s %s'%(output, addons_str))
+
+origin       = 'https://github.com/welwel2/wsrepo'
+
+
