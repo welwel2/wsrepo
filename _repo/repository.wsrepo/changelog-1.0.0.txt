@@ -1,7 +1,0 @@
-1.0.0
-6/7/2017
-- Initial version
- Includes 3 addons
- wslivetv
- wsteledunet
- wslivestream
