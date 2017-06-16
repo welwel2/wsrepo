@@ -1,0 +1,142 @@
+<!DOCTYPE Project SYSTEM "http://www.slickedit.com/dtd/vse/10.0/vpj.dtd">
+<Project
+    Version="10.0"
+    VendorName="SlickEdit"
+    TemplateName="Python - Empty Project"
+    WorkingDir=".">
+    <Files>
+        <Folder
+            Name="Source Files"
+            Filters="*.py"
+            GUID="{881A688E-2654-4144-8A7E-4E20F4EDC7A1}">
+            <F N="_tools/cr.py"/>
+            <F N="_tools/create_repository.py"/>
+        </Folder>
+        <Folder
+            Name="Other Files"
+            Filters=""
+            GUID="{71E7C481-FCB4-41FB-FA20-8BE0C1D0FA97}">
+            <F N=".gitignore"/>
+            <F N="_repo/plugin.video.wslivestream/addon.xml"/>
+            <F N="_repo/plugin.video.wslivetv/addon.xml"/>
+            <F N="_repo/plugin.video.wsteledunet/addon.xml"/>
+            <F N="_repo/repository.wsrepo/addon.xml"/>
+            <F N="_repo/addons.xml"/>
+            <F N="_repo/addons.xml.md5"/>
+            <F N=".git/hooks/applypatch-msg.sample"/>
+            <F N="_repo/repository.wsrepo/changelog-1.0.0.txt"/>
+            <F N="_repo/plugin.video.wslivestream/changelog-2017.5.24.txt"/>
+            <F N="_repo/plugin.video.wsteledunet/changelog-3.2.0.txt"/>
+            <F N=".git/hooks/commit-msg.sample"/>
+            <F N=".git/config"/>
+            <F N=".git/description"/>
+            <F N=".git/info/exclude"/>
+            <F N="_repo/plugin.video.wslivestream/fanart.jpg"/>
+            <F N="_repo/plugin.video.wslivetv/fanart.jpg"/>
+            <F N="_repo/repository.wsrepo/fanart.jpg"/>
+            <F N="../test/file4.txt"/>
+            <F N=".git/HEAD"/>
+            <F N=".git/logs/HEAD"/>
+            <F N=".git/logs/refs/remotes/origin/HEAD"/>
+            <F N=".git/refs/remotes/origin/HEAD"/>
+            <F N="_repo/plugin.video.wslivestream/icon.png"/>
+            <F N="_repo/plugin.video.wslivetv/icon.png"/>
+            <F N="_repo/plugin.video.wsteledunet/icon.png"/>
+            <F N="_repo/repository.wsrepo/icon.png"/>
+            <F N=".git/index"/>
+            <F N="LICENSE"/>
+            <F N="_repo/plugin.video.wslivestream/LICENSE.txt"/>
+            <F N="_repo/plugin.video.wslivetv/LICENSE.txt"/>
+            <F N="_repo/repository.wsrepo/LICENSE.txt"/>
+            <F N=".git/logs/refs/heads/master"/>
+            <F N=".git/refs/heads/master"/>
+            <F N=".git/objects/pack/pack-fbbe9841ab01c854fea96f7191d500a5e1b5a7ca.idx"/>
+            <F N=".git/objects/pack/pack-fbbe9841ab01c854fea96f7191d500a5e1b5a7ca.pack"/>
+            <F N=".git/packed-refs"/>
+            <F N="_repo/plugin.video.wslivestream/plugin.video.wslivestream-2017.5.24.zip"/>
+            <F N="_repo/plugin.video.wslivestream/plugin.video.wslivestream-2017.5.24.zip.md5"/>
+            <F N="_repo/plugin.video.wslivetv/plugin.video.wslivetv-3.1.9.zip"/>
+            <F N="_repo/plugin.video.wslivetv/plugin.video.wslivetv-3.1.9.zip.20170604172225"/>
+            <F N="_repo/plugin.video.wslivetv/plugin.video.wslivetv-3.1.9.zip.20170604215217"/>
+            <F N="_repo/plugin.video.wslivetv/plugin.video.wslivetv-3.1.9.zip.20170604223400"/>
+            <F N="_repo/plugin.video.wslivetv/plugin.video.wslivetv-3.1.9.zip.md5"/>
+            <F N="_repo/plugin.video.wsteledunet/plugin.video.wsteledunet-3.2.0.zip"/>
+            <F N="_repo/plugin.video.wsteledunet/plugin.video.wsteledunet-3.2.0.zip.20170604172225"/>
+            <F N="_repo/plugin.video.wsteledunet/plugin.video.wsteledunet-3.2.0.zip.20170604215218"/>
+            <F N="_repo/plugin.video.wsteledunet/plugin.video.wsteledunet-3.2.0.zip.20170604223401"/>
+            <F N="_repo/plugin.video.wsteledunet/plugin.video.wsteledunet-3.2.0.zip.md5"/>
+            <F N=".git/hooks/post-update.sample"/>
+            <F N=".git/hooks/pre-applypatch.sample"/>
+            <F N=".git/hooks/pre-commit.sample"/>
+            <F N=".git/hooks/pre-push.sample"/>
+            <F N=".git/hooks/pre-rebase.sample"/>
+            <F N=".git/hooks/pre-receive.sample"/>
+            <F N=".git/hooks/prepare-commit-msg.sample"/>
+            <F N="README.md"/>
+            <F N="_repo/repository.wsrepo/repository.wsrepo-1.0.0.zip"/>
+            <F N="_repo/repository.wsrepo/repository.wsrepo-1.0.0.zip.md5"/>
+            <F N=".git/hooks/update.sample"/>
+            <F N="wsrepo.vpj"/>
+        </Folder>
+    </Files>
+    <Config
+        Name="Debug"
+        DebugCallbackName="pydbgp"
+        Type="python"
+        OutputFile=""
+        AppType="python"
+        CompilerConfigName="">
+        <Menu>
+            <Target
+                Name="Execute"
+                MenuCaption="E&amp;xecute"
+                Dialog="_python_options_form Run"
+                CaptureOutputWith="ProcessBuffer"
+                SaveOption="SaveWorkspaceFiles"
+                RunFromDir="%rw"
+                Deletable="0">
+                <Exec CmdLine='python %(SLICKEDIT_PYTHON_EXECUTE_ARGS) "%f"'/>
+            </Target>
+            <Target
+                Name="Debug"
+                MenuCaption="&amp;Debug"
+                Dialog="_python_options_form Debug"
+                CaptureOutputWith="ProcessBuffer"
+                SaveOption="SaveNone"
+                RunFromDir="%rw"
+                Deletable="0">
+                <Exec
+                    CmdLine="python_debug"
+                    Type="Slick-C"/>
+            </Target>
+            <Target
+                Name="Python Options"
+                MenuCaption="Python &amp;Options"
+                ShowOnMenu="HideIfNoCmdLine"
+                Deletable="0">
+                <Exec
+                    CmdLine="pythonoptions"
+                    Type="Slick-C"/>
+            </Target>
+        </Menu>
+        <List Name="Python Options">
+            <Item
+                Name="DefaultFile"
+                Value=""/>
+        </List>
+        <List Name="pydbgp Options">
+            <Item
+                Name="ServerHost"
+                Value="127.0.0.1"/>
+            <Item
+                Name="ServerPort"
+                Value="0"/>
+            <Item
+                Name="ListenInBackground"
+                Value="1"/>
+            <Item
+                Name="show_hidden"
+                Value="0"/>
+        </List>
+    </Config>
+</Project>

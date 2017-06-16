@@ -1,0 +1,9 @@
+import os
+import stat
+import shutil
+
+def remove_readonly(func, path, excinfo):
+    os.chmod(path, stat.S_IWRITE)
+    func(path)
+
+shutil.rmtree(top, onerror=remove_readonly)
