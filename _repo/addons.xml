@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.wslivetv" name="wslivetv" provider-name="WZS" version="3.1.12">
+<addons><addon id="plugin.video.wslivetv" name="wslivetv" provider-name="WZS" version="3.1.13">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.googleapi" version="1.4.2" />
@@ -19,7 +19,7 @@ Enjoy the live channels, and provide your feedback for continuous improvement
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>Create categories, and context menu</news>
+        <news>manage excludes</news>
     </extension>
 </addon><addon id="plugin.video.wslivestream" name="wsLivestream" provider-name="WZS" version="2017.5.24">
   <requires>
