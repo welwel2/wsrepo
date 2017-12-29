@@ -3,7 +3,6 @@ import shutil
 
 toolsdir     = os.path.dirname(os.path.abspath(__file__))
 base_path    = os.path.split(toolsdir)[0]
-#base_path    = r'C:\Users\220554\Documents\GitHub\wsrepo'
 datadir      = '_repo'
 toolsdir     = "_tools"
 output       = os.path.join(base_path, datadir)
