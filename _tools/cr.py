@@ -44,7 +44,12 @@ def update_remote(repo_path, rm='origin'):
     
     remote = eval('repo.remotes.%s'%rm)
     assert remote.exists()
-    remote.push() 
+    try:
+       remote.push()
+    except:
+        import push
+        pp = push.PushProject()
+        pp.get_git()
     print 'pushed changes'
 
 #print 'addons paths are %s'%addons_str
